@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>广东商务厅page2</title>
+<link rel="stylesheet" href="css/page.css">
+
+<script src="../../libs/echarts.js"></script>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script src="js/guangdong.js"></script>
+<script src="data/corporData.js"></script>
+<script src="js/corporation.js"></script>
+</head>
+<body>
+    <!--head-->
+<!--     <div class="common_header"> -->
+<!--         <div class="header_logo"></div> -->
+<!--         <div class="header_middle"> -->
+<!--             <div class="header_title_page3 "> -->
+<!--             </div> -->
+<!--         </div> -->
+<!--     </div> -->
+
+	<!--图表区域-->
+    <div class="corporation_container">
+    	<div class="selectDiv">
+        	<select id="selectQuota">
+        		<option class="option" value=0 selected="selected">广东省外贸企业区域分布</option>
+        		<option class="option" value=1>广东省外资企业区域分布</option>
+        		<option class="option" value=2>广东省服务贸易企业区域分布</option>
+        		<option class="option" value=3>广东省内贸企业区域分布</option>
+        	</select>
+        </div>
+        <div class="subCorporDiv" id="mapChart">
+        </div>
+    </div>
+</body>
+</html>

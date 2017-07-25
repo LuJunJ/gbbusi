@@ -1,0 +1,128 @@
+/*
+    @page3样式
+    @2017-07-20
+*/
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei"
+}
+
+body {
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	background-color: #DFE2E9 !important;
+	overflow: hidden;
+	position: relative;
+	line-height: normal !important
+}
+.page-head {
+	background-color: #DFE2E9
+}
+
+.page-body {
+	background-color: #02040a
+}
+
+.corporation_container {
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	height: -webkit-calc(50% - 3px);
+	height: calc(50% - 3px);
+	width: calc(98%);
+	width: -webkit-calc(98%)
+}
+
+.corporation_down {
+	position: absolute;
+	top: -webkit-calc(50%);
+	top: calc(50%);
+	left: 1%;
+	height: -webkit-calc(50% - 16px);
+	height: calc(50% - 16px);
+	width: -webkit-calc(98%);
+	width: calc(98%)
+}
+
+.subCorporDiv {
+	position: relative;
+	float: left;
+	height: -webkit-calc(100% - 3px);
+	height: calc(100% - 3px);
+	margin: 10px 0px;
+	width: calc(100% - 10px);
+	width: -webkit-calc(100% - 10px);
+	background-color: #03162b;
+	border-radius: 3px
+}
+
+.title {
+	font-size: 14px;
+	color: #00a5ff;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-weight: normal;
+	font-family: "微软雅黑"
+}
+
+.titletop {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+	font-size: 15px;
+	color: #018ccd;
+	width: 150px;
+	z-index: 2;
+	font-weight: normal;
+	font-family: 'Microsoft YaHei'
+}
+
+.midCorporDiv {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 0px 0px 10px;
+	height: -webkit-calc(100% - 30px);
+	height: calc(100% - 30px);
+	width: calc(33.1%);
+	width: -webkit-calc(33.1%);
+	background-color: #DFE2E9;
+	border-radius: 3px
+}
+
+.selectDiv {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 0px 0px;
+	height: -webkit-calc(30px);
+	height: calc(30px);
+	width: calc(99.3%);
+	width: -webkit-calc(99.3%);
+	background-color: #FFFFFF;
+	border-radius: 3px 3px 0px 0px
+}
+
+.subCorporDiv div {
+	background-color: #FFFFFF;
+	border-radius: 3px
+}
+
+.midCorporDiv div {
+	background-color: #FFFFFF;
+	border-radius: 3px
+}
+
+#gaugeChart1 div {
+	border-radius: 0px 0px 0px 3px
+}
+
+#barChart div {
+	border-radius: 0px 0px 3px 0px
+}
